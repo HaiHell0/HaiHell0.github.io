@@ -1,0 +1,29 @@
+body {
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+img {
+  height: 150px;
+  width: 100px;
+}
+.form-select {
+  width: 20%;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.nav {
+  margin-top: 50px;
+  justify-content: center;
+}
+.page-link {
+  color: #198754;
+}
+img {
+  height: 370px;
+}
+p {
+  margin-bottom: 10px;
+}
