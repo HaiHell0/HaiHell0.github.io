@@ -41,7 +41,12 @@ function displayDog() {
 document.getElementById("showmore").addEventListener("click", function () {
   i+=2;
   console.log("Show more")
-  displayDog();
+  if(i<=6){
+    displayDog();
+    if(i==6){
+      document.getElementById("button").innerHTML=""
+    }
+  } 
 })
 function main(){
   displayDog()//display first two dogs
